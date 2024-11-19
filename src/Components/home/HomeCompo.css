@@ -1,0 +1,95 @@
+ /* HomeCompo.css */
+ .table-container {
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-right: 10px;
+    display:  flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 150px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  @media (max-width: 768px) {
+    .table-container {
+      padding: 10px;
+    }
+  
+    table td {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    input[type="number"] {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    input[type="number"], button {
+      width: 100%;
+      font-size: 1rem;
+    }
+  
+    table td {
+      padding: 6px;
+      font-size: 0.85rem;
+    }
+  }
+  
