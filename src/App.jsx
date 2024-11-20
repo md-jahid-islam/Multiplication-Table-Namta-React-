@@ -6,6 +6,7 @@
  import SignUp from './Pages/SignUp'
  import ResetPss from './Pages/ResetPss'
  import About from './Pages/About'
+ import Demo from './Pages/Demo'
 
  function App() {
  const mainroute = createBrowserRouter(
@@ -17,6 +18,8 @@
  <Route path='/About' element = {<About/>} />
 
  <Route path='/SignUp' element = {<SignUp/>} />
+ <Route path='/Demo' element = {<Demo/>} />
+
  <Route path='*' element = {<ResetPss/>} />
 
  </Route>
